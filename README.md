@@ -78,12 +78,14 @@ Ensure you have the following installed on your system:
    start-all
    ```
 - **Uploading Dataset into HDFS**:
+  
   Once the Hadoop services are running, the next step is to upload your dataset to HDFS so that it can be processed by the MapReduce jobs.
   
   1. Create a directory in HDFS for your input data: To organize your data, create a directory in HDFS where you will store the input files:
      ```bash
         hdfs dfs -mkdir /user/air_pollution/input
      ```
+     
   2. Upload the Dataset into HDFS: Now, you can upload your dataset,
      ```bash
      hdfs dfs -put /path/to/local/air_pollution.csv /user/air_pollution/input
@@ -91,9 +93,9 @@ Ensure you have the following installed on your system:
       **Note**:Replace /path/to/local/air_pollution.csv with the actual path to your local dataset.
      
   3. Verify that the file has been uploaded using:
-   ```bash
-   hdfs dfs -ls /user/air_pollution/input
-   ```
+      ```bash
+      hdfs dfs -ls /user/air_pollution/input
+      ```
   
    4. Check the Dataset in HDFS: To make sure the file has been uploaded successfully, you can check the contents of the `input` directory:
       ```bash
