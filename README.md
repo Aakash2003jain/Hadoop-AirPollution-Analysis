@@ -17,7 +17,7 @@ The dataset contains air pollution data for various local site names of a state,
 *(Note: The dataset file has already been included in the `input` directory for your convenience.)*
 
 
-3. **Verify Dataset Format**:  
+2. **Verify Dataset Format**:  
    Ensure the dataset follows the structure described in the "Dataset" section, including key columns such as:
    - **Date**: The date of measurement.
    - **City/State**: The location where air quality data was collected.
@@ -27,7 +27,7 @@ The dataset contains air pollution data for various local site names of a state,
    - **Site Latitude and Longitude**: Geographic coordinates of the measurement site,
    and **more**.
 
-4. **Explore and Download Data**:  
+3. **Explore and Download Data**:  
    If you do not already have a dataset, you can explore and download air quality data for various geographical areas (states, countries, etc.) from [EPA's Outdoor Air Quality Data](https://www.epa.gov/outdoor-air-quality-data/download-daily-data).
 
 ## Prerequisites and Technologies Used
@@ -72,36 +72,36 @@ Ensure you have the following installed on your system:
 
 3. **Hadoop Setup and Uploading Dataset into HDFS**
 
- - **Start Hadoop Services**:  
-   Ensure that Hadoop services are running. Use the following commands to start the Hadoop cluster:  
-   ```bash
-   start-all
-   ```
-- **Uploading Dataset into HDFS**:
-  
-  Once the Hadoop services are running, the next step is to upload your dataset to HDFS so that it can be processed by the MapReduce jobs.
-  
-  1. Create a directory in HDFS for your input data: To organize your data, create a directory in HDFS where you will store the input files:
-     ```bash
-        hdfs dfs -mkdir /user/air_pollution/input
-     ```
-     
-  2. Upload the Dataset into HDFS: Now, you can upload your dataset,
-     ```bash
-     hdfs dfs -put /path/to/local/air_pollution.csv /user/air_pollution/input
-      ```
-      **Note**:Replace /path/to/local/air_pollution.csv with the actual path to your local dataset.
-     
-  3. Verify that the file has been uploaded using:
+    - **Start Hadoop Services**:  
+      Ensure that Hadoop services are running. Use the following commands to start the Hadoop cluster:  
       ```bash
-      hdfs dfs -ls /user/air_pollution/input
+      start-all
       ```
-  
-   4. Check the Dataset in HDFS: To make sure the file has been uploaded successfully, you can check the contents of the `input` directory:
-      ```bash
-      hdfs dfs -cat /user/air_pollution/input/air_pollution.csv
-      ```
-      
+   - **Uploading Dataset into HDFS**:
+     
+     Once the Hadoop services are running, the next step is to upload your dataset to HDFS so that it can be processed by the MapReduce jobs.
+     
+     1. Create a directory in HDFS for your input data: To organize your data, create a directory in HDFS where you will store the input files:
+        ```bash
+           hdfs dfs -mkdir /user/air_pollution/input
+        ```
+        
+     2. Upload the Dataset into HDFS: Now, you can upload your dataset,
+        ```bash
+        hdfs dfs -put /path/to/local/air_pollution.csv /user/air_pollution/input
+         ```
+         **Note**:Replace /path/to/local/air_pollution.csv with the actual path to your local dataset.
+        
+     3. Verify that the file has been uploaded using:
+         ```bash
+         hdfs dfs -ls /user/air_pollution/input
+         ```
+     
+      4. Check the Dataset in HDFS: To make sure the file has been uploaded successfully, you can check the contents of the `input` directory:
+         ```bash
+         hdfs dfs -cat /user/air_pollution/input/air_pollution.csv
+         ```
+         
    
    
 
