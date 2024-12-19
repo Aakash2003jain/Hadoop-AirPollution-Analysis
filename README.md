@@ -14,8 +14,10 @@ The dataset contains air pollution data for various local site names of a state,
 
 1. **Upload the Dataset**:  
    Place your air pollution dataset (`air_pollution.csv`) in the `input` directory of your Hadoop setup.
+*(Note: The dataset file has already been included in the `input` directory for your convenience.)*
 
-2. **Verify Dataset Format**:  
+
+3. **Verify Dataset Format**:  
    Ensure the dataset follows the structure described in the "Dataset" section, including key columns such as:
    - **Date**: The date of measurement.
    - **City/State**: The location where air quality data was collected.
@@ -25,7 +27,7 @@ The dataset contains air pollution data for various local site names of a state,
    - **Site Latitude and Longitude**: Geographic coordinates of the measurement site,
    and **more**.
 
-3. **Explore and Download Data**:  
+4. **Explore and Download Data**:  
    If you do not already have a dataset, you can explore and download air quality data for various geographical areas (states, countries, etc.) from [EPA's Outdoor Air Quality Data](https://www.epa.gov/outdoor-air-quality-data/download-daily-data).
 
 
