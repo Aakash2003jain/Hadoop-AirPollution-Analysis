@@ -10,18 +10,24 @@ The dataset contains air pollution data for various local site names of a state,
 - **Highest CO Concentration**: Finds the highest CO concentration for each city or state.
 - **AQI Above Threshold**: Filters cities or states with AQI values above a predefined threshold.
 
-## Dataset 
-The dataset includes detailed air pollution data, with the following key columns:
+### Prepare the Dataset
 
-- **Date**: The date of measurement.
-- **City/State**: The location where air quality data was collected.
-- **Daily Max 8-hour CO Concentration**: Maximum 8-hour CO concentration measured in parts per million (ppm).
-- **Daily AQI Value**: The calculated Air Quality Index for the day.
-- **County/CBSA Name**: County and metropolitan area names.
-- **Site Latitude and Longitude**: Geographic coordinates of the measurement site,
-and **more**.
+1. **Upload the Dataset**:  
+   Place your air pollution dataset (`air_pollution.csv`) in the `input` directory of your Hadoop setup.
 
-The dataset covers a wide range of local site names of a state, with high granularity for air pollution trends.
+2. **Verify Dataset Format**:  
+   Ensure the dataset follows the structure described in the "Dataset" section, including key columns such as:
+   - **Date**: The date of measurement.
+   - **City/State**: The location where air quality data was collected.
+   - **Daily Max 8-hour CO Concentration**: Maximum 8-hour CO concentration measured in parts per million (ppm).
+   - **Daily AQI Value**: The calculated Air Quality Index for the day.
+   - **County/CBSA Name**: County and metropolitan area names.
+   - **Site Latitude and Longitude**: Geographic coordinates of the measurement site,
+   and **more**.
+
+3. **Explore and Download Data**:  
+   If you do not already have a dataset, you can explore and download air quality data for various geographical areas (states, countries, etc.) from [EPA's Outdoor Air Quality Data](https://www.epa.gov/outdoor-air-quality-data/download-daily-data).
+
 
 ## Technologies Used
 - **Hadoop**: For distributed processing using MapReduce.
@@ -35,4 +41,9 @@ The dataset covers a wide range of local site names of a state, with high granul
    Clone this repository to your local machine:
    ```bash
    git clone https://github.com/Aakash2003jain/Hadoop-AirPollution-Analysis.git
-   ```
+   ```   
+2. ** Prepare the Dataset**:
+
+- Place your air pollution dataset (air_pollution.csv) in the input directory.
+- Ensure the dataset follows the format specified in the "Dataset" section.
+- You can explore and download data for various geographical areas (states, countries, etc.) from EPA's Outdoor Air Quality Data.
