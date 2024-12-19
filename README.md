@@ -30,11 +30,13 @@ The dataset contains air pollution data for various local site names of a state,
 4. **Explore and Download Data**:  
    If you do not already have a dataset, you can explore and download air quality data for various geographical areas (states, countries, etc.) from [EPA's Outdoor Air Quality Data](https://www.epa.gov/outdoor-air-quality-data/download-daily-data).
 
+## Prerequisites and Technologies Used
 
-## Technologies Used
-- **Hadoop**: For distributed processing using MapReduce.
-- **Java**: For implementing the MapReduce logic.
-- **HDFS (Hadoop Distributed File System)**: For storing and processing large datasets.
+Ensure you have the following installed on your system:
+- **Hadoop** (configured and running) : For distributed processing using MapReduce.
+- **Java JDK** (required by Hadoop)
+- **HDFS** (Hadoop Distributed File System): For storing and processing large datasets.
+- Knowledge of Java, for implementing the MapReduce logic.
 
 ## Getting Started
 ### Steps to Run the Project
@@ -44,8 +46,3 @@ The dataset contains air pollution data for various local site names of a state,
    ```bash
    git clone https://github.com/Aakash2003jain/Hadoop-AirPollution-Analysis.git
    ```   
-2. ** Prepare the Dataset**:
-
-- Place your air pollution dataset (air_pollution.csv) in the input directory.
-- Ensure the dataset follows the format specified in the "Dataset" section.
-- You can explore and download data for various geographical areas (states, countries, etc.) from EPA's Outdoor Air Quality Data.
