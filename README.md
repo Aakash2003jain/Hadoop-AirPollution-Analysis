@@ -133,12 +133,12 @@ Ensure you have the following installed on your system:
       The following output shows the average CO concentration:  
       ![Average CO Concentration](./images/output1.png)
    
-   2. **AQI Values by Location**:  
-      The following output displays AQI values for different locations:  
+   2. **Highest CO Concentration**:  
+      Finds the highest CO concentration for a state.  
       ![AQI Values by Location](./images/output2.png)
    
-   3. **Detailed AQI Report**:  
-      The following output provides a detailed report of AQI values for specific sites:  
+   3. **AQI Above Threshold**:  
+      Filters cities or states with AQI values above a predefined threshold.  
       ![Detailed AQI Report](./images/output3.png)
    
 
