@@ -110,14 +110,13 @@ Ensure you have the following installed on your system:
         ```
      2. Run the Highest CO job :
       ``` bash
-      hadoop jar air_pollution.jar HighestCO /user/air_pollution/input /user/air_pollution/output2
+         hadoop jar air_pollution.jar HighestCO /user/air_pollution/input /user/air_pollution/output2
       ```
      3. Run the AQIAboveThreshold job :
         ```bash
         hadoop jar air_pollution.jar AQIAboveThreshold /user/air_pollution/input /user/air_pollution/output3
       ```
-   
- **Note**:  Replace air_pollution.jar with the actual path of air_pollution.jar.
+   **Note**:  Replace air_pollution.jar with the actual path of air_pollution.jar.
         
    
    
