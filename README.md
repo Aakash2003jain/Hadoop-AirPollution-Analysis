@@ -48,7 +48,7 @@ Ensure you have the following installed on your system:
    ```   
 
 2. **Compile the Code**:  
-   Compile the Java MapReduce code and package it into a JAR file. Run these commands from the project directory where your `src/` folder is located.
+   Compile the Java MapReduce code and package it into a JAR file. Run these commands from the project directory.
 
    - **Compile the Code**:  
      Run the following command to compile the Java files:  
@@ -66,5 +66,5 @@ Ensure you have the following installed on your system:
      - This command packages the files from the `build/` directory into a JAR file named `air_pollution.jar`.
 
    **Note**:
-   - These commands must be executed in the terminal from the root directory of your project, where the `src/` and `build/` directories are located.
+   - These commands must be executed in the terminal from the root directory of your project.
    - For your convenience, the `air_pollution.jar` file has already been included in the root folder of this repository. You can use it directly without recompiling, unless you make modifications to the code.
