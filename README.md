@@ -90,7 +90,7 @@ Ensure you have the following installed on your system:
         ```bash
         hdfs dfs -put /path/to/local/air_pollution.csv /user/air_pollution/input
          ```
-         **Note**:Replace /path/to/local/air_pollution.csv with the actual path to your local dataset.
+         **Note**: Replace /path/to/local/air_pollution.csv with the actual path to your local dataset.
         
      3. Verify that the file has been uploaded using:
          ```bash
