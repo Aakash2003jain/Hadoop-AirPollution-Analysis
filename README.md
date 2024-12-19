@@ -83,7 +83,7 @@ Ensure you have the following installed on your system:
      
      1. Create a directory in HDFS for your input data: To organize your data, create a directory in HDFS where you will store the input files:
         ```bash
-           hdfs dfs -mkdir /user/air_pollution/input
+        hdfs dfs -mkdir /user/air_pollution/input
         ```
         
      2. Upload the Dataset into HDFS: Now, you can upload your dataset,
@@ -106,17 +106,18 @@ Ensure you have the following installed on your system:
      Once the dataset is uploaded to HDFS, you can run the MapReduce job using the `hadoop jar` command. Ensure that your JAR file is correctly compiled and contains the main class for execution.
      1. Run the Average AQI job:
         ```bash
-            hadoop jar air_pollution.jar AverageAQI /user/air_pollution/input /user/air_pollution/output1
+        hadoop jar air_pollution.jar AverageAQI /user/air_pollution/input /user/air_pollution/output1
         ```
      2. Run the Highest CO job :
       ``` bash
-         hadoop jar air_pollution.jar HighestCO /user/air_pollution/input /user/air_pollution/output2
+      hadoop jar air_pollution.jar HighestCO /user/air_pollution/input /user/air_pollution/output2
       ```
      3. Run the AQIAboveThreshold job :
         ```bash
         hadoop jar air_pollution.jar AQIAboveThreshold /user/air_pollution/input /user/air_pollution/output3
-      ```
-   **Note**:  Replace air_pollution.jar with the actual path of air_pollution.jar.
+        ```
+           **Note**:  Replace air_pollution.jar with the actual path of air_pollution.jar.
+
         
    
    
