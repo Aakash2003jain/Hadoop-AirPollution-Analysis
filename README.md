@@ -7,14 +7,13 @@
 4. [Prerequisites and Technologies Used](#prerequisites-and-technologies-used)
 5. [Steps to Run the Project](#steps-to-run-the-project)
     1. [Clone the repository](#clone-the-repository)
-    2. [Compile the Code](#compile-the-code)
+    2. [Compile the Code](#Compile-the-Code)
     3. [Hadoop Setup and Uploading Dataset into HDFS](#hadoop-setup-and-uploading-dataset-into-hdfs)
     4. [Run the MapReduce Job](#run-the-mapreduce-job)
     5. [Check the Output](#Check-the-Output)
 6. [MapReduce Job Descriptions](#mapreduce-job-descriptions)
 7. [Example Output](#example-output)
-8. [File Structure](#file-structure)
-9. [Troubleshooting](#troubleshooting)
+8. [Troubleshooting](#troubleshooting)
 
 
 
@@ -163,7 +162,7 @@ This project includes three key MapReduce jobs designed to process the air pollu
    - **Input**: The input dataset, where each record contains the AQI value for a specific city/state.
    - **Output**: A file containing the cities/states with AQI values exceeding the threshold.
 
-## 7. Example Output
+## Example Output
 
 The following are the results generated from running the MapReduce jobs on the air pollution dataset:
 
