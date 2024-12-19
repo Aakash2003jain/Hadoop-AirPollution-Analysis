@@ -19,7 +19,8 @@ The dataset includes detailed air pollution data, with the following key columns
 - **Daily AQI Value**: The calculated Air Quality Index for the day.
 - **County/CBSA Name**: County and metropolitan area names.
 - **Site Latitude and Longitude**: Geographic coordinates of the measurement site,
-and more.
+and **more**.
+
 The dataset covers a wide range of local site names of a state, with high granularity for air pollution trends.
 
 ## Technologies Used
