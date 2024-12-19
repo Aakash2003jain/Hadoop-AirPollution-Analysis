@@ -15,8 +15,7 @@
 7. [Example Output](#example-output)
 8. [File Structure](#file-structure)
 9. [Troubleshooting](#troubleshooting)
-10. [Contributing](#contributing)
-11. [License](#license)
+
 
 
 ## Overview
@@ -167,16 +166,13 @@ This project includes three key MapReduce jobs designed to process the air pollu
 ---
 
 ## Example Output
-         Below are the results of the Hadoop MapReduce jobs for air pollution analysis, as retrieved from HDFS output directories:
-      
+Below are the results of the Hadoop MapReduce jobs for air pollution analysis, as retrieved from HDFS output directories: 
       1. **Average CO Concentration**:  
          The following output shows the average CO concentration:  
          ![Average CO Concentration](./images/output1.png)
-      
       2. **Highest CO Concentration**:  
          Finds the highest CO concentration for a state.  
          ![Highest CO Concentration](./images/output2.png)
-      
       3. **AQI Above Threshold**:  
          Filters cities or states with AQI values above a predefined threshold.Counts how many times the AQI (Air Quality Index) value exceeds a defined threshold (in this case threshold is 10).  
          ![AQI Above Threshold](./images/output3.png)
