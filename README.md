@@ -70,7 +70,7 @@ Ensure you have the following installed on your system:
    - For your convenience, the `air_pollution.jar` file has already been included in the root folder of this repository. You can use it directly without recompiling, unless you make modifications to the code.
 
 
-3. **Hadoop Setup and Uploading Dataset into HDFS**
+3. **Hadoop Setup and Uploading Dataset into HDFS**:
 
     - **Start Hadoop Services**:  
       Ensure that Hadoop services are running. Use the following commands to start the Hadoop cluster:  
@@ -101,6 +101,28 @@ Ensure you have the following installed on your system:
          ```bash
          hdfs dfs -cat /user/air_pollution/input/air_pollution.csv
          ```
+
+ 4. **Run the MapReduce Job**:  
+     Once the dataset is uploaded to HDFS, you can run the MapReduce job using the `hadoop jar` command. Ensure that your JAR file is correctly compiled and contains the main class for execution.
+     1. Run the Average AQI job:
+        ```bash
+            hadoop jar air_pollution.jar AverageAQI /user/air_pollution/input /user/air_pollution/output1
+        ```
+     2. Run the Highest CO job :
+      ``` bash
+      hadoop jar air_pollution.jar HighestCO /user/air_pollution/input /user/air_pollution/output2
+      ```
+     3. Run the AQIAboveThreshold job :
+        ```bash
+        hadoop jar air_pollution.jar AQIAboveThreshold /user/air_pollution/input /user/air_pollution/output3
+      ```
+   
+ **Note**:  Replace air_pollution.jar with the actual path of air_pollution.jar.
+        
+   
+   
+
+
          
    
    
