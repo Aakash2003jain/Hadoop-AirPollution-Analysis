@@ -10,7 +10,7 @@ The dataset contains air pollution data for various local site names of a state,
 - **Highest CO Concentration**: Finds the highest CO concentration for each city or state.
 - **AQI Above Threshold**: Filters cities or states with AQI values above a predefined threshold.
 
-### Prepare the Dataset
+## Prepare the Dataset
 
 1. **Upload the Dataset**:  
    Place your air pollution dataset (`air_pollution.csv`) in the `input` directory of your Hadoop setup.
