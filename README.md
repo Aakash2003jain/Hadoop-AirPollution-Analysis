@@ -170,7 +170,7 @@ The following are the results generated from running the MapReduce jobs on the a
    ![Highest CO Concentration](./images/output2.png)
 
 3. **AQI Above Threshold**:
-   - This output shows the count of cities/states where AQI exceeds a threshold value (e.g., 10).
+   - This output shows the count of cities/states where AQI exceeds a threshold value (here the value is 10).
    ![AQI Above Threshold](./images/output3.png)
 
 
