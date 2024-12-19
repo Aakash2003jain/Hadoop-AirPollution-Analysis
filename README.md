@@ -119,6 +119,7 @@ Ensure you have the following installed on your system:
            **Note**:  Replace air_pollution.jar with the actual path of air_pollution.jar.
 
  5. **View the Results**:
+    
     After the job runs successfully, you can view the results using:
     ```bash
     hdfs dfs -cat /user/air_pollution/output1/part-r-00000
