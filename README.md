@@ -13,12 +13,12 @@ The dataset contains air pollution data for various local site names of a state,
 ## Dataset 
 The dataset includes detailed air pollution data, with the following key columns:
 
--**Date**: The date of measurement.
--**City/State**: The location where air quality data was collected.
--**Daily Max 8-hour CO Concentration**: Maximum 8-hour CO concentration measured in parts per million (ppm).
--**Daily AQI Value**: The calculated Air Quality Index for the day.
--**County/CBSA Name**: County and metropolitan area names.
--**Site Latitude and Longitude**: Geographic coordinates of the measurement site,
+- **Date**: The date of measurement.
+- **City/State**: The location where air quality data was collected.
+- **Daily Max 8-hour CO Concentration**: Maximum 8-hour CO concentration measured in parts per million (ppm).
+- **Daily AQI Value**: The calculated Air Quality Index for the day.
+- **County/CBSA Name**: County and metropolitan area names.
+- **Site Latitude and Longitude**: Geographic coordinates of the measurement site,
 and more.
 The dataset covers a wide range of local site names of a state, with high granularity for air pollution trends.
 
