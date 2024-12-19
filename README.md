@@ -155,7 +155,7 @@ This project includes three key MapReduce jobs designed to process the air pollu
 3. **AQI Above Threshold**:
    - **Description**: This job filters cities or states with AQI values above a predefined threshold (e.g., 100). It helps identify areas with poor air quality.
    - **Input**: The input dataset, where each record contains the AQI value for a specific city/state.
-   - **Output**: A file containing the cities/states with AQI values exceeding the threshold.
+   - **Output**: A file containing the count of cities/states with AQI values exceeding the threshold.
 
 ## Example Output
 
@@ -170,7 +170,7 @@ The following are the results generated from running the MapReduce jobs on the a
    ![Highest CO Concentration](./images/output2.png)
 
 3. **AQI Above Threshold**:
-   - This output shows the cities/states where AQI exceeds a threshold value (e.g., 10).
+   - This output shows the count of cities/states where AQI exceeds a threshold value (e.g., 10).
    ![AQI Above Threshold](./images/output3.png)
 
 
