@@ -138,7 +138,7 @@ Ensure you have the following installed on your system:
          ![Highest CO Concentration](./images/output2.png)
       
       3. **AQI Above Threshold**:  
-         Filters cities or states with AQI values above a predefined threshold.  
+         Filters cities or states with AQI values above a predefined threshold.Counts how many times the AQI (Air Quality Index) value exceeds a defined threshold (in this case threshold is 10).  
          ![AQI Above Threshold](./images/output3.png)
    
 
