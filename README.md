@@ -127,6 +127,23 @@ Ensure you have the following installed on your system:
     hdfs dfs -cat /user/air_pollution/output3/part-r-00000
     ```
 
+   Below are the results of the Hadoop MapReduce jobs for air pollution analysis, as retrieved from HDFS output directories:
+   
+   1. **Average CO Concentration**:  
+      The following output shows the average CO concentration:  
+      ![Average CO Concentration](./images/output1.png)
+   
+   2. **AQI Values by Location**:  
+      The following output displays AQI values for different locations:  
+      ![AQI Values by Location](./images/output2.png)
+   
+   3. **Detailed AQI Report**:  
+      The following output provides a detailed report of AQI values for specific sites:  
+      ![Detailed AQI Report](./images/output3.png)
+   
+
+
+
 
 
 
