@@ -127,19 +127,19 @@ Ensure you have the following installed on your system:
     hdfs dfs -cat /user/air_pollution/output3/part-r-00000
     ```
 
-   Below are the results of the Hadoop MapReduce jobs for air pollution analysis, as retrieved from HDFS output directories:
-   
-   1. **Average CO Concentration**:  
-      The following output shows the average CO concentration:  
-      ![Average CO Concentration](./images/output1.png)
-   
-   2. **Highest CO Concentration**:  
-      Finds the highest CO concentration for a state.  
-      ![AQI Values by Location](./images/output2.png)
-   
-   3. **AQI Above Threshold**:  
-      Filters cities or states with AQI values above a predefined threshold.  
-      ![Detailed AQI Report](./images/output3.png)
+      Below are the results of the Hadoop MapReduce jobs for air pollution analysis, as retrieved from HDFS output directories:
+      
+      1. **Average CO Concentration**:  
+         The following output shows the average CO concentration:  
+         ![Average CO Concentration](./images/output1.png)
+      
+      2. **Highest CO Concentration**:  
+         Finds the highest CO concentration for a state.  
+         ![Highest CO Concentration](./images/output2.png)
+      
+      3. **AQI Above Threshold**:  
+         Filters cities or states with AQI values above a predefined threshold.  
+         ![AQI Above Threshold](./images/output3.png)
    
 
 
