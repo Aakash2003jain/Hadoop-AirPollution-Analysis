@@ -38,8 +38,7 @@ Ensure you have the following installed on your system:
 - **HDFS** (Hadoop Distributed File System): For storing and processing large datasets.
 - Knowledge of Java, for implementing the MapReduce logic.
 
-## Getting Started
-### Steps to Run the Project
+## Steps to Run the Project
 
 1. **Clone the repository**:
    Clone this repository to your local machine:
