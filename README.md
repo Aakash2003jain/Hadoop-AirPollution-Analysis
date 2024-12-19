@@ -46,3 +46,23 @@ Ensure you have the following installed on your system:
    ```bash
    git clone https://github.com/Aakash2003jain/Hadoop-AirPollution-Analysis.git
    ```   
+
+2. **Compile the Code**:  
+   Compile the Java MapReduce code and package it into a JAR file. Run these commands from the project directory where your `src/` folder is located.
+
+   - **Compile the Code**:  
+     Run the following command to compile the Java files:  
+     ```bash
+     javac -classpath "$(hadoop classpath)" -d ./build src/*.java
+     ```
+     - Ensure the `src/` directory contains your Java source files.
+     - The compiled class files will be placed in the `build/` directory.
+
+   - **Create the JAR File**:  
+     Run the following command to package the compiled files into a JAR:  
+     ```bash
+     jar -cvf air_pollution.jar -C build/ .
+     ```
+     - This command packages the files from the `build/` directory into a JAR file named `air_pollution.jar`.
+
+   **Note**: These commands must be executed in the terminal from the root directory of your project, where the `src/` and `build/` directories are located.
