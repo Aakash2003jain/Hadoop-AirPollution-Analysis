@@ -58,7 +58,7 @@ Ensure you have the following installed on your system:
    git clone https://github.com/Aakash2003jain/Hadoop-AirPollution-Analysis.git
    ```   
 
-2. **Compile the Code**:  
+2. **Code Compilation and JAR Creation**:  
    Compile the Java MapReduce code and package it into a JAR file. Run these commands from the project directory.
 
    - **Compile the Code**:  
