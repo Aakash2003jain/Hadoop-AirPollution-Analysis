@@ -87,13 +87,14 @@ Ensure you have the following installed on your system:
   2. Upload the Dataset into HDFS: Now, you can upload your dataset,
      ```bash
      hdfs dfs -put /path/to/local/air_pollution.csv /user/air_pollution/input
-   ```
-   **Note**:Replace /path/to/local/air_pollution.csv with the actual path to your local dataset.
-   
+      ```
+      **Note**:Replace /path/to/local/air_pollution.csv with the actual path to your local dataset.
+     
   3. Verify that the file has been uploaded using:
    ```bash
    hdfs dfs -ls /user/air_pollution/input
    ```
+  
    4. Check the Dataset in HDFS: To make sure the file has been uploaded successfully, you can check the contents of the `input` directory:
       ```bash
       hdfs dfs -cat /user/air_pollution/input/air_pollution.csv
