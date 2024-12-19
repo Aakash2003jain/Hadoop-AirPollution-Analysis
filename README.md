@@ -139,7 +139,7 @@ Ensure you have the following installed on your system:
       
       3. **AQI Above Threshold**:  
          Filters cities or states with AQI values above a predefined threshold.  
-         ![AQI Above Threshold](images/output 3.png)
+         ![AQI Above Threshold](./images/output3.png)
    
 
 
