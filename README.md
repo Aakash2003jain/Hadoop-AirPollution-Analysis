@@ -1,4 +1,23 @@
 # Hadoop Air Pollution Analysis
+## Table of Contents
+
+1. [Overview](#overview)
+2. [Features](#features)
+3. [Prepare the Dataset](#prepare-the-dataset)
+4. [Prerequisites and Technologies Used](#prerequisites-and-technologies-used)
+5. [Steps to Run the Project](#steps-to-run-the-project)
+    1. [Clone the repository](#clone-the-repository)
+    2. [Compile the Code](#compile-the-code)
+    3. [Hadoop Setup and Uploading Dataset into HDFS](#hadoop-setup-and-uploading-dataset-into-hdfs)
+    4. [Run the MapReduce Job](#run-the-mapreduce-job)
+    5. [Check the Output](#Check-the-Output)
+6. [MapReduce Job Descriptions](#mapreduce-job-descriptions)
+7. [Example Output](#example-output)
+8. [File Structure](#file-structure)
+9. [Troubleshooting](#troubleshooting)
+10. [Contributing](#contributing)
+11. [License](#license)
+
 
 ## Overview
 This project analyzes air pollution data using Hadoop MapReduce. It processes a large dataset of air pollution measurements, specifically focusing on air quality index (AQI) and CO concentration, and calculates various insights such as the average AQI per state, highest CO concentration, and AQI values above a certain threshold.
@@ -117,7 +136,7 @@ Ensure you have the following installed on your system:
         ```
            **Note**:  Replace air_pollution.jar with the actual path of air_pollution.jar.
 
- 5. **View the Results**:
+ 5. **Check the Output**:
     
     After the job runs successfully, you can view the results using:
     ```bash
@@ -125,8 +144,30 @@ Ensure you have the following installed on your system:
     hdfs dfs -cat /user/air_pollution/output2/part-r-00000
     hdfs dfs -cat /user/air_pollution/output3/part-r-00000
     ```
+    
+## 6. MapReduce Job Descriptions
 
-      Below are the results of the Hadoop MapReduce jobs for air pollution analysis, as retrieved from HDFS output directories:
+This project includes three key MapReduce jobs designed to process the air pollution dataset:
+
+1. **Average AQI Calculation**:
+   - **Description**: This job calculates the average Air Quality Index (AQI) for each state.
+   - **Input**: The input dataset, where each record contains the AQI value for a specific city/state.
+   - **Output**: A file containing the average AQI value for each state.
+
+2. **Highest CO Concentration**:
+   - **Description**: This job finds the highest CO concentration recorded for each city/state in the dataset.
+   - **Input**: The input dataset, where each record contains the CO concentration for a specific city/state.
+   - **Output**: A file containing the highest CO concentration for each city/state.
+
+3. **AQI Above Threshold**:
+   - **Description**: This job filters cities or states with AQI values above a predefined threshold (e.g., 100). It helps identify areas with poor air quality.
+   - **Input**: The input dataset, where each record contains the AQI value for a specific city/state.
+   - **Output**: A file containing the cities/states with AQI values exceeding the threshold.
+
+---
+
+## 7. **Output**:
+         Below are the results of the Hadoop MapReduce jobs for air pollution analysis, as retrieved from HDFS output directories:
       
       1. **Average CO Concentration**:  
          The following output shows the average CO concentration:  
