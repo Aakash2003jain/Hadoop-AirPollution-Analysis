@@ -191,9 +191,8 @@ Here are some common issues you may encounter and how to resolve them:
    - **Solution**: If you are rerunning a job, make sure to delete the existing output directory in HDFS using `hdfs dfs -rm -r /user/air_pollution/output`.
    
 
-
-
-
+## License
+   This project is licensed under the MIT License. See the LICENSE file for more details.
 
 
         
